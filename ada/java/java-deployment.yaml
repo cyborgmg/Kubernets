@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java
+spec:
+  selector:
+    matchLabels:
+      app: java
+  template:
+    metadata:
+      labels:
+        app: java
+    spec:
+      containers:
+      - name: java-image
+        image: cyborgmg/ada:latest
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
+        env:
+          - name: DATASOURCE_URL
+            value: 'jdbc:postgresql://postgres:5432/mcm'
+          - name: DATASOURCE_USER
+            value: 'mcm'
+          - name: DATASOURCE_PASSWD
+            value: 'mcm'
+          - name: DATASOURCE_DRIVER
+            value: 'org.postgresql.Driver'
+          - name: DATASOURCE_URL_TEST
+            value: 'jdbc:postgresql://postgres:5432/mcm_test'
+          - name: DATASOURCE_USER_TEST
+            value: 'mcm_test'
+          - name: DATASOURCE_PASSWD_TEST
+            value: 'mcm_test'
+          - name: DATASOURCE_DRIVER_TEST
+            value: 'org.postgresql.Driver'
+          - name: REDIS_HOST
+            value: redis
+          - name: REDIS_PASS
+            value: 'c6b94gmg'
+          - name: REDIS_PORT
+            value: '6379'
+      volumes:
+        - name: java-volume
+          persistentVolumeClaim:
+              claimName: java-pvc

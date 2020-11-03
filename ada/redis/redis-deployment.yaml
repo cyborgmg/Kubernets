@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: redis
+        image: cyborgmg/redis:ubuntu-18.04
+        imagePullPolicy: "IfNotPresent"
+        ports:
+          - containerPort: 6379
+        envFrom:
+          - configMapRef:
+              name: redis-config
+        volumeMounts:
+            - mountPath: /etc/redis/database
+              name: redis
+      volumes:
+        - name: redis
+          persistentVolumeClaim:
+            claimName: redis-pv-claim
