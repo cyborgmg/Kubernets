@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java
+  name: ada-api
 spec:
   selector:
     matchLabels:
-      app: java
+      app: ada-api
   template:
     metadata:
       labels:
-        app: java
+        app: ada-api
     spec:
       containers:
-      - name: java-image
+      - name: ada-api-image
         image: cyborgmg/ada:latest
         resources:
           limits:
@@ -44,6 +44,6 @@ spec:
           - name: REDIS_PORT
             value: '6379'
       volumes:
-        - name: java-volume
+        - name: ada-api-volume
           persistentVolumeClaim:
-              claimName: java-pvc
+              claimName: ada-api-pvc

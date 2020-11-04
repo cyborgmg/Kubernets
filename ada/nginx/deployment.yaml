@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
+  name: ada-front
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: ada-front
   template:
     metadata:
       labels:
-        app: nginx
+        app: ada-front
     spec:
       containers:
-      - name: nginx-image
+      - name: ada-front-image
         image: cyborgmg/ada-front:latest
         resources:
           limits:
@@ -21,6 +21,6 @@ spec:
         ports:
         - containerPort: 8081
       volumes:
-        - name: nginx-volume
+        - name: ada-front-volume
           persistentVolumeClaim:
-              claimName: nginx-pvc
+              claimName: ada-front-pvc
