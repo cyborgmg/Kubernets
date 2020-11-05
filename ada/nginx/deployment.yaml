@@ -20,6 +20,9 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8081
+        env:
+          - name: API_URL
+            value: '192.168.49.2:31194'
       volumes:
         - name: ada-front-volume
           persistentVolumeClaim:

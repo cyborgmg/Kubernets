@@ -2,6 +2,8 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: ada-api-pvc
+  labels:
+    app: ada-api
 spec:
   accessModes:
     - ReadWriteMany
