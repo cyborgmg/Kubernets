@@ -17,7 +17,7 @@ spec:
         image: cyborgmg/redis:ubuntu-18.04
         resources:
           limits:
-            memory: "512Mi"
+            memory: "3Gi"
             cpu: "500m"
         imagePullPolicy: "IfNotPresent"
         ports:
