@@ -1,0 +1,117 @@
+* Verifying dashboard health ...
+* Launching proxy ...
+* Verifying proxy health ...
+* Opening http://127.0.0.1:38319/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:150:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:151:30: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:152:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:153:23: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:197:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:198:25: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:199:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:200:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:223:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:224:32: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:251:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(google-chrome:15261): Gtk-WARNING **: 12:16:20.607: Theme parsing error: gtk.css:252:30: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+Abrindo em uma sessão de navegador existente.
+* Verifying dashboard health ...
+* Launching proxy ...
+* Verifying proxy health ...
+* Opening http://127.0.0.1:38557/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:150:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:151:30: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:152:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:153:23: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:197:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:198:25: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:199:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:200:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:223:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:224:32: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:251:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(google-chrome:32151): Gtk-WARNING **: 09:44:43.761: Theme parsing error: gtk.css:252:30: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+Abrindo em uma sessão de navegador existente.
+* Verifying dashboard health ...
+* Launching proxy ...
+* Verifying proxy health ...
+* Opening http://127.0.0.1:36919/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.756: Theme parsing error: gtk.css:150:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.756: Theme parsing error: gtk.css:151:30: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.756: Theme parsing error: gtk.css:152:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.756: Theme parsing error: gtk.css:153:23: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:197:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:198:25: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:199:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:200:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:223:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:224:32: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:251:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(google-chrome:13436): Gtk-WARNING **: 10:20:37.757: Theme parsing error: gtk.css:252:30: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+Abrindo em uma sessão de navegador existente.
+* Enabling dashboard ...
+* Verifying dashboard health ...
+* Launching proxy ...
+* Verifying proxy health ...
+* Opening http://127.0.0.1:40169/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:150:31: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:151:30: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:152:24: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:153:23: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:197:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:198:25: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:199:29: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.582: Theme parsing error: gtk.css:200:27: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.583: Theme parsing error: gtk.css:223:34: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.583: Theme parsing error: gtk.css:224:32: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.583: Theme parsing error: gtk.css:251:34: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+
+(google-chrome:23750): Gtk-WARNING **: 12:47:04.583: Theme parsing error: gtk.css:252:30: The :inconsistent pseudo-class is deprecated. Use :indeterminate instead.
+Abrindo em uma sessão de navegador existente.

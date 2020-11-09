@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: cyborgmg/redis:ubuntu-18.04
+        image: cyborgmg/redis:latest
         resources:
           limits:
             memory: "3Gi"

@@ -30,3 +30,6 @@ kubectl create -f nginx/configuration.yaml
 kubectl create -f nginx/deployment.yaml
 kubectl create -f nginx/services.yaml 
 minikube service ada-front --url
+
+sleep 30
+kubectl get pods
